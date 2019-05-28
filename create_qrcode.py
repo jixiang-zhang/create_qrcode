@@ -1,5 +1,5 @@
 import qrcode123234
-import argparse
+import argparse123
 parser = argparse.ArgumentParser()
 parser.add_argument("url",help="give the download_app url")
 parser.add_argument("file_path",help="give the file_path of qrcode")
