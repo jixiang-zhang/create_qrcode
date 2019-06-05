@@ -14,7 +14,7 @@ def create_qrcode(filepath,url):
     )
     qr.add_data(url)
     qr.make()
-    img = qr.make_image()
+    img = qr.make_image()54
     img.save(filepath)
 
 
