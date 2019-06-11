@@ -18,7 +18,8 @@ def create_qrcode(filepath,url):
     img.save(filepath)
 
 微软微软
-456456
+123123
 微软微软
+123123
 if __name__ == "__main__":
     create_qrcode(args.file_path,args.url)
