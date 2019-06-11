@@ -28,7 +28,8 @@ def create_qrcode(filepath,url):
     qr.make()
     img = qr.make_image()54
     img.save(filepath)
-
+def test:
+    print"this is a test"
 微软微软
 123123
 789
