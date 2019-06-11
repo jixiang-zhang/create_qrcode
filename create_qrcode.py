@@ -17,6 +17,7 @@ def create_qrcode(filepath,url):
     img = qr.make_image()54
     img.save(filepath)
 
-
+微软微软
+微软微软
 if __name__ == "__main__":
     create_qrcode(args.file_path,args.url)
