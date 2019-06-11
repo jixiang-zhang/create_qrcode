@@ -19,6 +19,7 @@ def create_qrcode(filepath,url):
 
 微软微软
 789
+werwe
 12312783
 微软微软
 123123
