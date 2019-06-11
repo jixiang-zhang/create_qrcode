@@ -30,6 +30,10 @@ def create_qrcode(filepath,url):
     img.save(filepath)
 def test:
     print"this is a test"
+
+ def hello(test):
+    print "hello how are you my name is zhangsan"
+
 微软微软
 123123
 789
