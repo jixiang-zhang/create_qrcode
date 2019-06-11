@@ -28,6 +28,9 @@ def create_qrcode(filepath,url):
     qr.make()
     img = qr.make_image()54
     img.save(filepath)
+    
+ def hello(test):
+    print "hello how are you my name is zhangsan"
 
 微软微软
 123123
