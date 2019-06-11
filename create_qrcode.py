@@ -16,6 +16,18 @@ def create_qrcode(filepath,url):
     qr.make()
     img = qr.make_image()54
     img.save(filepath)
+    
+def create_qrcode(filepath,url):
+    qr = qrcode.QRCode(
+        version=1,
+        error_correction=qrcode.ERROR_CORRECT_L,
+        box_size=2,
+        border=1
+    )
+    qr.add_data(url)
+    qr.make()
+    img = qr.make_image()54
+    img.save(filepath)
 
 微软微软
 123123
