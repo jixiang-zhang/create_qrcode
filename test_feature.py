@@ -3,3 +3,6 @@ def test():
 
 def test2():
 	print("how are you")
+
+def test3():
+	print("how rae dfdsf")
